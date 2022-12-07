@@ -1,0 +1,670 @@
+body{
+   background-color: #FFF2AB;
+   font-size: 16px;
+   margin: 0;
+   box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderNav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HeaderNav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.NavInicio{
+    width: 6%;
+    padding: 10px 0 10px 0;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color:rgb(105, 107, 116);
+}
+
+.NavMenu{
+    width: 6%;
+    padding: 10px 0 10px 0;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color: rgb(105, 107, 116);
+}
+
+.NavVolver{
+    width: 6%;
+    padding: 10px 0 10px 0;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color:rgb(105, 107, 116) ;
+}
+
+.NavBuscar{
+    width: 6%;
+    padding: 10px 0 10px 0;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color:rgb(105, 107, 116) ;
+}
+
+.SectionOne{
+    position: relative;
+}
+
+.SectionOneTitle{
+    position: absolute;
+    top: 15px;
+    width: 50%;
+    left: 10%;
+    font-size: 8vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Englebert', sans-serif;
+    text-transform: capitalize;
+}
+
+.SectionOneText{
+    position: absolute;
+    font-size: 5vh;
+    top: 20px;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 20%;
+    font-family: 'Englebert', sans-serif;
+}
+
+.SectionOneImg1{
+    width: 100%;
+
+}
+
+.SectionOneImg2{
+    position: absolute;
+    top: 33%;
+    width: 25%;
+    display: flex;
+    justify-content: left;
+}
+
+.SectionOneImg3{
+    position: absolute;
+    width: 35%;
+    top: 0%;
+    left: 70%;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.SectionOneImg4{
+    position: absolute;
+    width: 20%;
+    left: 78%;
+    top: 50%;
+     
+}
+
+.SectioneTwo{
+    position: relative;
+}
+
+.SectionTwoTitle{
+    position: absolute;
+    top: 850px;
+    width: 80%;
+    left: 15%;
+    font-size: 8vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Englebert', sans-serif;
+    text-transform: capitalize;
+}
+
+.SectionTwoImg{
+    width: 100%;
+
+}
+
+.SectionTwoImg1{
+    position: absolute;
+    top: 145%;
+    width: 35%;
+    display: flex;
+    justify-content: right;
+    left: -10%;
+}
+
+.SectionTwoText1{
+    position: absolute;
+    width: 15%;
+    font-size: 5vh;
+    top: 1000px;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    font-family: 'Englebert', sans-serif;
+}
+
+.SectionTwoButton1{
+    position: absolute;
+    width: 12%;
+    padding: 10px 0 10px 0;
+    left: 20%;
+    top: 1350px;
+    display: flex;
+    justify-content:center;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color: rgb(105, 107, 116);
+    font-size: 4.8vh;
+    font-family: 'Englebert', sans-serif;
+    
+}
+
+.SectionTwoImg2{
+    position: absolute;
+    top: 145%;
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    left: 70%;
+}
+
+.SectionTwoText2{
+    position: absolute;
+    width: 15%;
+    font-size: 5vh;
+    top: 1000px;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    font-family: 'Englebert', sans-serif;
+}
+
+.SectionTwoButton2{
+    position: absolute;
+    width: 15%;
+    padding: 10px 0 10px 0;
+    left: 45%;
+    top: 1350px;
+    display: flex;
+    justify-content:center;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color: rgb(105, 107, 116);
+    font-size: 4.8vh;
+    font-family: 'Englebert', sans-serif;
+}
+
+.SectionTwoImg3{
+    position: absolute;
+    top: 230%;
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    left: 68%;
+}
+
+.SectionTwoText3{
+    position: absolute;
+    width: 20%;
+    font-size: 5vh;
+    top: 1000px;
+    left: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    font-family: 'Englebert', sans-serif;
+}
+
+.SectionTwoButton3{
+    position: absolute;
+    width: 15%;
+    padding: 10px 0 10px 0;
+    left: 65%;
+    top: 1350px;
+    display: flex;
+    justify-content:center;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color: rgb(105, 107, 116);
+    font-size: 4.8vh;
+    font-family: 'Englebert', sans-serif;
+}
+
+.SectionThree{
+    position: relative;
+}
+
+.SectionThreeTitle{
+    position: absolute;
+    top: 1720px;
+    width: 80%;
+    left: 12%;
+    font-size: 8vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Englebert', sans-serif;
+    text-transform: capitalize;
+}
+
+.SectionThreeImg{
+    width: 100%;
+}
+
+.SectionThreeImg01{
+    position: absolute;
+    top: 230%;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    left: -10%;
+}
+
+.SectionThreeImg02{
+    position: absolute;
+    top: 368%;
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    left: 75%;
+}
+
+.SectionThreeImg03{
+    position: absolute;
+    top: 280%;
+    width: 35%;
+    display: flex;
+    justify-content: right;
+    left: 75%;
+}
+
+.SectionThreeImg04{
+    position: absolute;
+    top: 500%;
+    width: 35%;
+    display: flex;
+    justify-content: right;
+    left: 75%;
+}
+
+
+.SectionThreeImg1{
+    position: absolute;
+    width: 12%;
+    padding: 10px 0 10px 0;
+    left: 16%;
+    top: 1900px;
+}
+
+.SectionThreeText1{
+    position: absolute;
+    width: 28%;
+    font-size: 5vh;
+    top: 1800px;
+    left: 28%;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    font-family: 'Englebert', sans-serif; 
+}
+
+.SectionThreeButton1{
+    position: absolute;
+    width: 15%;
+    padding: 10px 0 10px 0;
+    left: 64%;
+    top: 1920px;
+    display: flex;
+    justify-content:center;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color: rgb(105, 107, 116);
+    font-size: 4.8vh;
+    font-family: 'Englebert', sans-serif;
+}
+
+.SectionThreeImg2{
+    position: absolute;
+    width: 15%;
+    padding: 10px 0 10px 0;
+    left: 14%;
+    top: 2050px;
+}
+
+.SectionThreeText2{
+    position: absolute;
+    width: 28%;
+    font-size: 5vh;
+    top: 2000px;
+    left: 28%;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    font-family: 'Englebert', sans-serif; 
+}
+
+.SectionThreeButton2{
+    position: absolute;
+    width: 15%;
+    padding: 10px 0 10px 0;
+    left: 64%;
+    top: 2110px;
+    display: flex;
+    justify-content:center;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color: rgb(105, 107, 116);
+    font-size: 4.8vh;
+    font-family: 'Englebert', sans-serif;
+}
+
+.SectionThreeImg3{
+    position: absolute;
+    width: 12%;
+    padding: 10px 0 10px 0;
+    left: 14%;
+    top: 2300px;
+}
+
+.SectionThreeText3{
+    position: absolute;
+    width: 28%;
+    font-size: 5vh;
+    top: 2250px;
+    left: 28%;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    font-family: 'Englebert', sans-serif; 
+}
+
+.SectionThreeButton3{
+    position: absolute;
+    width: 15%;
+    padding: 10px 0 10px 0;
+    left: 64%;
+    top: 2380px;
+    display: flex;
+    justify-content:center;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color: rgb(105, 107, 116);
+    font-size: 4.8vh;
+    font-family: 'Englebert', sans-serif;
+}
+
+.SectionFour{
+    position: relative;
+}
+
+.SectionFourTitle{
+    position: absolute;
+    top: 2680px;
+    width: 80%;
+    left: 10%;
+    font-size: 8vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Englebert', sans-serif;
+    text-transform: capitalize;
+}
+
+.SectionFourImg{
+    width: 100%;
+    
+}
+
+.SectionFourText1{
+    position: absolute;
+    top: 2800px;
+    width: 40%;
+    left: 55%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Englebert', sans-serif;
+    text-transform: capitalize;
+    border-radius: 12px 12px 12px 12px;
+    text-align: left;
+    background-color: rgb(248, 249, 252);
+    font-size: 4.8vh;
+    
+}
+
+.SectionFourText2{
+    position: absolute;
+    top: 2950px;
+    width: 10%;
+    left: 55%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Englebert', sans-serif;
+    text-transform: capitalize;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color: rgb(248, 249, 252);
+    font-size: 4.8vh;
+}
+
+.SectionFourText3{
+    position: absolute;
+    top: 3030px;
+    width: 10%;
+    left: 55%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Englebert', sans-serif;
+    text-transform: capitalize;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color: rgb(248, 249, 252);
+    font-size: 4.8vh;
+}
+
+.SectionFourText4{
+    position: absolute;
+    top: 3110px;
+    width: 11%;
+    left: 55%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Englebert', sans-serif;
+    text-transform: capitalize;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color: rgb(248, 249, 252);
+    font-size: 4.8vh;
+}
+
+.SectionFourButton1{
+    position: absolute;
+    top: 2980px;
+    width: 25%;
+    left: 66%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Englebert', sans-serif;
+    text-transform: capitalize;
+    border-radius: 12px 12px 12px 12px;
+    background-color: rgb(248, 249, 252);
+    padding: 23px 5px 23px 5px; 
+}
+
+.SectionFourButton2{
+    position: absolute;
+    top: 3060px;
+    width: 25%;
+    left: 66%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Englebert', sans-serif;
+    text-transform: capitalize;
+    border-radius: 12px 12px 12px 12px;
+    background-color: rgb(248, 249, 252);
+    padding: 23px 5px 23px 5px;
+}
+
+.SectionFourButton3{
+    position: absolute;
+    top: 3140px;
+    width: 25%;
+    left: 66%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Englebert', sans-serif;
+    text-transform: capitalize;
+    border-radius: 12px 12px 12px 12px;
+    background-color: rgb(248, 249, 252);
+    padding: 23px 5px 23px 5px;
+}
+
+.SectionFourButton4{
+    position: absolute;
+    top: 3210px;
+    width: 10%;
+    left: 65%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Englebert', sans-serif;
+    text-transform: capitalize;
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    background-color: rgb(248, 249, 252);
+    font-size: 4.8vh;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    left: 50%;
+}
+
+@media(min-width: 480px){
+    .HeaderNav{
+        flex-direction: row;
+        
+    }
+}
+
+@media(min-width: 480px){
+    .SectionOne{
+        flex-direction: row;
+        
+    }
+}
+
+@media(min-width: 480px){
+    .SectioneTwo{
+        flex-direction: row;
+        
+    }
+}
+
+@media(min-width: 480px){
+    .SectionThree{
+        flex-direction: row;
+        
+    }
+}
+
+@media(min-width: 480px){
+    .SectionFour{
+        flex-direction: row;
+        
+    }
+}
+
+
+@media(min-width: 768px){
+    .SectionOneTitle{
+        width: 300px;
+        height: 300px;
+        margin-left: 2%;
+    }
+}
+@media(min-width: 768px){
+    .SectionOneText{
+        width: 300px;
+        height: 300px;
+        margin-left: 2%;
+    }
+}
+
+@media(min-width: 768px){
+    .SectionTwoTitle{
+        width: 300px;
+        height: 300px;
+        margin-left: 2%;
+    }
+}
+@media(min-width: 768px){
+    .SectionTwoText1{
+        width: 300px;
+        height: 300px;
+        margin-left: 2%;
+    }
+}
+@media(min-width: 768px){
+    .SectionTwoText2{
+        width: 300px;
+        height: 300px;
+        margin-left: 2%;
+    }
+}
+@media(min-width: 768px){
+    .SectionTwoText3{
+        width: 300px;
+        height: 300px;
+        margin-left: 2%;
+    }
+}
+
+@media(min-width: 768px){
+    .SectionThree{
+        width: 300px;
+        height: 300px;
+        margin-left: 2%;
+    }
+}
+
+@media(min-width: 768px){
+    .SectionFour{
+        width: 300px;
+        height: 300px;
+        margin-left: 2%;
+    }
+}
+
+@media(min-width:1024px){
+    h1{
+        font-size: 8rem;
+    }
+    .HeaderNav{
+        background-color: blanchedalmond;
+    }
+    .SectionOne{
+        
+            border: 5px solid rgb(242, 201, 135);
+            font-size: 4rem;
+    }
+        }
+        
+
+
